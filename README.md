@@ -12,7 +12,7 @@ A simple wallet contract that demonstrates:
 - Secure management of user balances.
 - Basic ownership and access control mechanisms.
 
-### 2. **[Multisig](./contracts/Multisig.sol)**
+### 2. **[Multisig](./contracts/MultiSig.sol)**
 
 A multisignature wallet contract that showcases:
 
@@ -28,7 +28,7 @@ An ERC20-compatible token contract that teaches:
 - Token minting and burning functionalities.
 - Implementing transfer, allowance, and approval mechanisms based on the ERC20 standard.
 
-### 4. **[Airdrop](./contracts/Airdrop.sol)**
+### 4. **[Airdrop](./contracts/AirDrop.sol)**
 
 An airdrop contract designed to distribute tokens to multiple recipients efficiently:
 
