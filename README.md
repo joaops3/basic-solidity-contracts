@@ -35,3 +35,19 @@ An airdrop contract designed to distribute tokens to multiple recipients efficie
 - Demonstrates the use of `calldata` for optimized gas consumption.
 - How to handle bulk token transfers securely.
 - Emission of events for transaction transparency.
+
+### 5. **[NFTToken](./contracts/NFTToken.sol)**
+
+An ERC721-compatible non-fungible token (NFT) contract that covers:
+
+- How to create and manage unique digital assets.
+- Minting, transferring, and burning NFTs.
+- Implementing metadata and ownership tracking.
+
+### 6. **[NFTMarketplace](./contracts/NFTMarketplace.sol)**
+
+A marketplace contract for trading tokens that demonstrates:
+
+- Listing tokens for sale and managing bids.
+- Securely transferring ownership of tokens upon sale.
+- Handling payments and fees in a decentralized manner.
