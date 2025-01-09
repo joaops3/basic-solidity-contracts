@@ -1,11 +1,11 @@
 import { ethers } from 'hardhat';
 import { expect } from 'chai';
 import { Signer } from 'ethers';
-import { CustomToken } from '../typechain-types';
+import { Airdrop, CustomToken } from '../typechain-types';
 
 describe('Airdrop', function () {
   let Token: CustomToken;
-  let Airdrop: any;
+  let Airdrop: Airdrop;
   let owner: Signer;
   let addr1: Signer;
   let addr2: Signer;
